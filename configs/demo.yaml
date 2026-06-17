@@ -3,6 +3,8 @@ exp: DomainAdaptation
 run: "target-insta"
 input:
   dir: example
+  kp_dir: ""   # default: {dir}/openpose_outs
+  out_dir: ""  # default: {dir}/outs
   img_size:
     - 720
     - 1280
