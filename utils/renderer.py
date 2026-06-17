@@ -1,6 +1,6 @@
 import os
 
-os.environ["DISPLAY"] = ":0"
+os.environ["PYOPENGL_PLATFORM"] = "egl"
 
 import numpy as np
 import pyrender
