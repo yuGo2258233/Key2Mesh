@@ -1,6 +1,6 @@
 import os
 
-os.environ["PYOPENGL_PLATFORM"] = "osmesa"
+os.environ["DISPLAY"] = ":99"
 
 import numpy as np
 import pyrender
